@@ -34,7 +34,7 @@ const SignUp = () => {
     }
 
     const register = () => {
-        axios.post(process.env.REACT_API_URL+"/signup",{
+        axios.post(process.env.REACT_APP_URL+"/signup",{
             name: users.name,
             email: users.email,
             password: users.password,

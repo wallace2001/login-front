@@ -31,7 +31,7 @@ const Sign = () => {
     }
 
     const login = () => {
-        axios.get(process.env.REACT_API_URL+"/signin", { 
+        axios.get(process.env.REACT_APP_URL+"/signin", { 
             auth: {
               username: users.email,
               password: users.password,
